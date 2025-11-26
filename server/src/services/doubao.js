@@ -9,7 +9,7 @@ export async function generateImage(prompt, options = {}) {
   const { maxRetries = 3 } = options
 
   // 构建更详细的图片描述提示词
-  const enhancedPrompt = `高质量专业插图，主题：${prompt}。风格：现代简洁，商业插画风格，适合文章配图，色彩明亮，构图清晰，16:9比例`
+  const enhancedPrompt = `高质量专业插图，主题：${prompt}。风格：现代简洁，商业插画风格，适合文章配图，色彩明亮，构图清晰，1:1正方形构图`
 
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
@@ -22,8 +22,8 @@ export async function generateImage(prompt, options = {}) {
         body: JSON.stringify({
           model: DOUBAO_MODEL,
           prompt: enhancedPrompt,
-          size: '1280x720', // 16:9 比例，921600像素满足4.0模型要求
-          response_format: 'url', // 返回URL
+          size: '2048x2048', // 2K 1:1 正方形，高质量
+          response_format: 'url',
         }),
       })
 

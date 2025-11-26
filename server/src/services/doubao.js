@@ -22,7 +22,7 @@ export async function generateImage(prompt, options = {}) {
         body: JSON.stringify({
           model: DOUBAO_MODEL,
           prompt: enhancedPrompt,
-          size: '1024x576', // 16:9 比例
+          size: '1280x720', // 16:9 比例，921600像素满足4.0模型要求
           response_format: 'url', // 返回URL
         }),
       })

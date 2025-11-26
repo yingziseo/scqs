@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "SEO文章生成器",
+    "subtitle": "AI驱动的批量内容创作工具"
+  },
+  "header": {
+    "language": "语言"
+  },
+  "input": {
+    "keyword": "关键词",
+    "keywordPlaceholder": "输入您的目标关键词",
+    "language": "内容语言",
+    "languagePlaceholder": "选择生成内容的语言",
+    "wordCount": "文章字数",
+    "wordCountRange": "{{min}} - {{max}} 字",
+    "generateTitles": "生成标题",
+    "generating": "生成中..."
+  },
+  "titles": {
+    "header": "选择文章标题",
+    "selectAll": "全选",
+    "selected": "已选 {{count}} 篇",
+    "generateArticles": "生成文章",
+    "noTitles": "暂无标题，请先生成"
+  },
+  "articles": {
+    "header": "文章生成",
+    "progress": "正在生成第 {{current}} / {{total}} 篇",
+    "completed": "全部完成",
+    "preview": "预览",
+    "regenerate": "重新生成",
+    "status": {
+      "pending": "等待中",
+      "generating": "生成中",
+      "completed": "已完成",
+      "failed": "失败"
+    }
+  },
+  "export": {
+    "header": "导出文章",
+    "downloadZip": "下载ZIP压缩包",
+    "downloadSingle": "下载单篇",
+    "exporting": "正在打包..."
+  },
+  "modal": {
+    "close": "关闭",
+    "confirm": "确认",
+    "cancel": "取消"
+  },
+  "languages": {
+    "zh": "中文",
+    "en": "英语",
+    "ja": "日语",
+    "ko": "韩语",
+    "fr": "法语",
+    "de": "德语",
+    "es": "西班牙语",
+    "pt": "葡萄牙语",
+    "ru": "俄语",
+    "it": "意大利语",
+    "nl": "荷兰语",
+    "pl": "波兰语",
+    "tr": "土耳其语",
+    "ar": "阿拉伯语",
+    "th": "泰语",
+    "vi": "越南语",
+    "id": "印尼语",
+    "ms": "马来语",
+    "hi": "印地语",
+    "he": "希伯来语"
+  },
+  "errors": {
+    "keywordRequired": "请输入关键词",
+    "languageRequired": "请选择内容语言",
+    "selectTitles": "请至少选择一个标题",
+    "generateFailed": "生成失败，请重试"
+  }
+}

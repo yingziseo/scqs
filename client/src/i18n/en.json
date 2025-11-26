@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "SEO Article Generator",
+    "subtitle": "AI-Powered Batch Content Creation Tool"
+  },
+  "header": {
+    "language": "Language"
+  },
+  "input": {
+    "keyword": "Keyword",
+    "keywordPlaceholder": "Enter your target keyword",
+    "language": "Content Language",
+    "languagePlaceholder": "Select content language",
+    "wordCount": "Word Count",
+    "wordCountRange": "{{min}} - {{max}} words",
+    "generateTitles": "Generate Titles",
+    "generating": "Generating..."
+  },
+  "titles": {
+    "header": "Select Article Titles",
+    "selectAll": "Select All",
+    "selected": "{{count}} selected",
+    "generateArticles": "Generate Articles",
+    "noTitles": "No titles yet, please generate first"
+  },
+  "articles": {
+    "header": "Article Generation",
+    "progress": "Generating {{current}} / {{total}}",
+    "completed": "All completed",
+    "preview": "Preview",
+    "regenerate": "Regenerate",
+    "status": {
+      "pending": "Pending",
+      "generating": "Generating",
+      "completed": "Completed",
+      "failed": "Failed"
+    }
+  },
+  "export": {
+    "header": "Export Articles",
+    "downloadZip": "Download ZIP",
+    "downloadSingle": "Download Single",
+    "exporting": "Packaging..."
+  },
+  "modal": {
+    "close": "Close",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "languages": {
+    "zh": "Chinese",
+    "en": "English",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "fr": "French",
+    "de": "German",
+    "es": "Spanish",
+    "pt": "Portuguese",
+    "ru": "Russian",
+    "it": "Italian",
+    "nl": "Dutch",
+    "pl": "Polish",
+    "tr": "Turkish",
+    "ar": "Arabic",
+    "th": "Thai",
+    "vi": "Vietnamese",
+    "id": "Indonesian",
+    "ms": "Malay",
+    "hi": "Hindi",
+    "he": "Hebrew"
+  },
+  "errors": {
+    "keywordRequired": "Please enter a keyword",
+    "languageRequired": "Please select content language",
+    "selectTitles": "Please select at least one title",
+    "generateFailed": "Generation failed, please retry"
+  }
+}
